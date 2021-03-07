@@ -66,4 +66,16 @@
 
   Click on Next
   
+  ![image](https://user-images.githubusercontent.com/58024415/110239590-ce0c2f80-7f6d-11eb-9084-dde5fd8ff670.png)
+
+  Click on Next
+  
+  ![image](https://user-images.githubusercontent.com/58024415/110239609-e1b79600-7f6d-11eb-9b0f-67af3e02e378.png)
+
+  Click on Next and then click on Review
+  
+  ![image](https://user-images.githubusercontent.com/58024415/110239636-fa27b080-7f6d-11eb-9552-98684f61b4ec.png)
+
+  Will take some time to deploy application in ec2-instance. Once done please check output of application by giving IP address
+  
   
