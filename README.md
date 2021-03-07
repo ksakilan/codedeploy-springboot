@@ -2,6 +2,7 @@
 
 # Pre-Requisites
     Launch Instance with some tag
+    Allow 5000 Port in Security Group
     Install codedeploy-agent
 # Launch Instance with Tag   
   ![image](https://user-images.githubusercontent.com/58024415/110238397-6ce15d80-7f67-11eb-8252-f66ea1abafb8.png)
