@@ -13,14 +13,14 @@ permissions:
 
 hooks:
   BeforeInstall:
-    - location: scripts/before_install.sh
+    - location: before_install.sh
       timeout: 20
       runas: ec2-user
   ApplicationStart:
-    - location: scripts/start_application.sh
+    - location: start_application.sh
       timeout: 20
       runas: ec2-user
   ValidateService:
-    - location: scripts/basic_health_check.sh
+    - location: basic_health_check.sh
       timeout: 60
       runas: ec2-user
