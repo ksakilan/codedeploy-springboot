@@ -10,6 +10,24 @@
     wget https://aws-codedeploy-us-east-1.s3.amazonaws.com/latest/install
     chmod +x ./install
     sudo ./install auto
+# Create IAM Role for communicating S3 service 
+  Goto IAM service  --> Role  -->  Create Role 
+  
+  ![image](https://user-images.githubusercontent.com/58024415/110240495-2ba27b00-7f72-11eb-9991-c35fa87c2b50.png)
+
+  Click on EC2 and click on Next: Permission
+  
+  ![image](https://user-images.githubusercontent.com/58024415/110240546-8045f600-7f72-11eb-971d-20622a8a186a.png)
+
+  Click on Next: Tags  --> Next: Review
+  
+  ![image](https://user-images.githubusercontent.com/58024415/110240568-9f448800-7f72-11eb-891f-7659470c4def.png)
+
+  Click on Create Role
+# Attach EC2-S3Role to EC2 Instance and Restart CodeDeploy-agent
+    service codedeploy-agent restart
+# If you face any issues please check logs of CodeDeploy-Agent
+    cat /var/log/aws/codedeploy-agent/codedeploy-agent.log
 # Create IAM Role for Code Deploy
   Goto IAM service  -->  Roles  --> Click on create Role
 
@@ -78,4 +96,4 @@
 
   Will take some time to deploy application in ec2-instance. Once done please check output of application by giving IP address
   
-  
+  ![image](https://user-images.githubusercontent.com/58024415/110240431-e4b48580-7f71-11eb-9443-badd4f109ce0.png)
