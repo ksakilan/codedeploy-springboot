@@ -54,4 +54,4 @@
 
 Note: It will take time to run code pipeline, once done we can see output of our application using elastic bean stack domain name.
 
-
+ ![image](https://user-images.githubusercontent.com/58024415/110231699-4c9da880-7f3f-11eb-9c40-a8410afe1f2a.png)
