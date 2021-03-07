@@ -24,4 +24,34 @@
   Goto Code Build
   ![image](https://user-images.githubusercontent.com/58024415/110230955-aa7bc180-7f3a-11eb-9877-61cda3283238.png)
   
-  Click on 
+  Click on Create Build Project
+  
+  ![image](https://user-images.githubusercontent.com/58024415/110231256-a355b300-7f3c-11eb-98cd-25f4ed904b2d.png)
+
+# Create Code Pipeline
+  Goto Code Pipeline
+  ![image](https://user-images.githubusercontent.com/58024415/110231324-224aeb80-7f3d-11eb-9764-01f75a46f023.png)
+  
+  Click on Create Pipeline
+  
+  ![image](https://user-images.githubusercontent.com/58024415/110231373-75bd3980-7f3d-11eb-9325-b399a8685a08.png)
+
+  Click on Next
+  
+  ![image](https://user-images.githubusercontent.com/58024415/110231447-c7fe5a80-7f3d-11eb-9bf4-bc76ba293bf9.png)
+
+  Click on Next
+  
+  ![image](https://user-images.githubusercontent.com/58024415/110231504-1dd30280-7f3e-11eb-921f-4fea3ce49c33.png)
+
+  Click on Next
+  
+  ![image](https://user-images.githubusercontent.com/58024415/110231527-3d6a2b00-7f3e-11eb-9dcc-7c7609598733.png)
+  
+  Click on Next and Click on Create Pipeline
+  
+  ![image](https://user-images.githubusercontent.com/58024415/110231557-6be80600-7f3e-11eb-9d2a-08c632d6f4b8.png)
+
+Note: It will take time to run code pipeline, once done we can see output of our application using elastic bean stack domain name.
+
+
